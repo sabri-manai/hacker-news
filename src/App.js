@@ -29,12 +29,7 @@ export const App = () =>{
                         />
                         <StoriesContainercopy
 
-                storyIds={Storycopy.filter(
-                    (choice) =>
-                      choice.by
-                        .toLowerCase()
-                        .includes(searching.toLowerCase())
-                  )}  />
+                   />
                   </div>
                   )}
 

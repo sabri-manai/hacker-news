@@ -23,12 +23,6 @@ export const Storycopycopy = memo(function Story({ storyId }) {
       </StoryTitle>
       
       <StoryMeta>
-      {/* <span data-testid="story-by">
-          <StoryMetaElement color="#000">Score:</StoryMetaElement> {story.score}
-        </span> */}
-        {/* <span data-testid="story-by">
-          <StoryMetaElement color="#000">By:</StoryMetaElement> {story.by}
-        </span> */}
         <span data-testid="story-time">
           <StoryMetaElement color="#000"> Posted:</StoryMetaElement> {` `}
           {mapTime(story.time)}
